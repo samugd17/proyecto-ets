@@ -4,7 +4,7 @@ Descuentra es una comunidad, accesible mediante página web y App, que recopila 
 
 ## Índice
 
-- [Doc](#doc/README.md)
-- [Despliegue](#despliegue/README.md)
-- [Source](#source/README.md)
-- [Testing](#testing/README.md)
+- [Doc](doc/README.md)
+- [Despliegue](despliegue/README.md)
+- [Source](source/README.md)
+- [Testing](testing/README.md)
