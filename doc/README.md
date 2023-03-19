@@ -4,6 +4,6 @@ En esta sección, se podrá encontrar todo lo relacionado a la documentación de
 
 ## Índice
 
-- [Anteproyecto](#anteproyecto.md)
-- [Diagrama de casos de uso](#diagrama-casos-uso)
-- [Diagrama de entidad-relación](#diagrama-entidad-relación)
+- [Anteproyecto](anteproyecto.md)
+- [Diagrama de casos de uso](diagrama-casos-uso)
+- [Diagrama de entidad-relación](diagrama-entidad-relación)
