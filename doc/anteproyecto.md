@@ -2,8 +2,10 @@
 
 # Anteproyecto - Descuentra
 
-<div align="center">
-<img src="../img/imagen-descriptiva-si-existe.png" />
+<div align='center'>
+
+![<>](img/true_descuentra.png)
+
 </div>
 
 ## Indice
@@ -26,12 +28,6 @@ Integrantes del grupo:
 
 ## Presentación y descripción del proyecto.
 
-<div align='center'>
-
-![<>](img/true_descuentra.png)
-
-</div>
-
 El objetivo de este proyecto será empezar el desarrollo de un programa en forma de aplicación. Descuentra servirá de rastreador de descuentos y promociones para productos comprados en tiendas online externas.
 
 Esta aplicación, la cual necesitará de un registro y una asociación de tarjeta almacenará en una base de datos cualquier tipo de descuento válido en una amplia selección de tiendas online y los aplicará automáticamente.
@@ -53,5 +49,3 @@ Se utilizará Python para la programación de la aplicación, así como SQLite p
 </div>
 
 La parte de la aplicación de cara al usuario se realizará utilizando HTML Y CSS.
-
-###### cambio de prueba.
