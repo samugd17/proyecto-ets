@@ -21,8 +21,8 @@ DESCUENTRA
 Proyecto para entornos de desarrollo en 1ºDAW.
 
 Integrantes del grupo:
-- Samuel 
-- Jaime León García
+- Samuel González
+- Jaime León 
 
 ## Presentación y descripción del proyecto.
 
@@ -41,16 +41,17 @@ Descuentra se rentabilizará recibiendo un pequeño porcentaje del dinero descue
 ## Arquitectura y tecnologías a utilizar.
 
 ### Back-end
-![<>](img/python-sql.png)
-<img src='img/python-sql.png' width="60%" height="30%">
-
-Se utilizará SQLite para la creación y administración de la base de datos de la aplicación, respecto al código de la aplicación, este se escribirá con Python 
-
-
->Nota: Dibujo de la solución que se va a implementar.
-
-<div align="center">
-<img src="../img/imagen-boceto.png" />
+<div align='center'>
+<img src='img/python-sql.png' width="60%">
 </div>
 
+Se utilizará Python para la programación de la aplicación, así como SQLite para la creación y administración de la base de datos de la misma.
+
+### Front-end
+<div align='center'>
+<img src='img/html-css.jpg' width="60%">
 </div>
+
+La parte de la aplicación de cara al usuario se realizará utilizando HTML Y CSS.
+
+###### cambio de prueba.
