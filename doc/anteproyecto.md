@@ -30,9 +30,9 @@ Integrantes del grupo:
 
 El objetivo de este proyecto será empezar el desarrollo de un programa en forma de aplicación. Descuentra servirá de rastreador de descuentos y promociones para productos comprados en tiendas online externas.
 
-Esta aplicación, la cual necesitará de un registro y una asociación de tarjeta almacenará en una base de datos cualquier tipo de descuento válido en una amplia selección de tiendas online y los aplicará automáticamente.
+Esta aplicación, la cual necesitará de un registro y una asociación de tarjeta, almacenará en una base de datos cualquier tipo de descuento válido en una amplia selección de tiendas online y los aplicará automáticamente.
 
-Descuentra se rentabilizará recibiendo un pequeño porcentaje del dinero descuentado con cada compra a cambio del servicio, suficiente para que el usuario considere el uso de la aplicación rentable y use Descuentra con cada compra online.
+Descuentra se rentabilizará recibiendo un pequeño porcentaje del dinero descontado con cada compra a cambio del servicio, suficiente para que el usuario considere el uso de la aplicación rentable y use Descuentra con cada compra online.
 
 ## Arquitectura y tecnologías a utilizar.
 
