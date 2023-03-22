@@ -28,11 +28,11 @@ Integrantes del grupo:
 
 ## Presentación y descripción del proyecto.
 
-El objetivo de este proyecto será empezar el desarrollo de un programa en forma de página web. Descuentra servirá de rastreador de descuentos y promociones para productos comprados en tiendas online externas.
+El objetivo de este proyecto será empezar el desarrollo de un programa en forma de página web. 'Descuentra' servirá de rastreador de descuentos y promociones para productos comprados en tiendas online externas.
 
 En Descuentra se le mostrará al usuario una página principal con las mejores ofertas del momento, así como una serie de menús con todas las tiendas y marcas disponibles ordenadas por cantidad de descuentos y/u ofertas actuales de cada una de ellas. Una vez seleccionada una tienda, el usuario será llevado al sitio web correspondiente con la extensión Descuentra, la cual aplicará automáticamente todos los descuentos disponibles y mostrará el dinero ahorrado en la compra.
 
-Esta pagina web, la cual necesitará de un registro y una asociación de tarjeta, almacenará en una base de datos cualquier tipo de descuento válido en una amplia selección de tiendas online e irá modificando la base de datos periodicamente almacenando y elminando descuentos según caduquen.
+Esta pagina web, la cual necesitará de un registro y una asociación de tarjeta para procesar las compras, se apoyará en una base de datos en la que se que almacenará cualquier tipo de descuento válido en una amplia selección de tiendas online. Los datos de esta base de datos y será actualizada periodicamente, almacenando y elminando descuentos según caduquen.
 
 Descuentra se rentabilizará recibiendo un pequeño porcentaje del dinero descontado con cada compra a cambio del servicio, suficiente para que el usuario considere el uso de la aplicación rentable y use Descuentra con cada compra online.
 
