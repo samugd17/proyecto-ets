@@ -37,15 +37,12 @@ Descuentra se rentabilizará recibiendo un pequeño porcentaje del dinero descon
 ## Arquitectura y tecnologías a utilizar.
 
 ### Back-end
-<div align='center'>
-<img src='img/python-sql.png' width="60%">
-</div>
+
 
 Se utilizará Python para la programación de la aplicación, así como SQLite para la creación y administración de la base de datos de la misma.
 
-### Front-end
-<div align='center'>
-<img src='img/html-css.jpg' width="60%">
-</div>
-
 La parte de la aplicación de cara al usuario se realizará utilizando HTML Y CSS.
+
+<div align='center'>
+<img src='img/proyecto_ets.drawio.png'>
+</div>
