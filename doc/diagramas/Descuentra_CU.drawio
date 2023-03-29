@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T19:16:06.506Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="nm1TCTA1TynJ6IApmV8Y" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T19:18:56.896Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="1-ULa4eS9kK1O19zsk9L" version="21.1.1" type="github">
   <diagram name="Página-1" id="CXJXlOiOrODaM3HMHi4I">
     <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,10 @@
         <mxCell id="282KxaGEVmYwGQcS04Fb-14" value="Envía datos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="282KxaGEVmYwGQcS04Fb-1" vertex="1">
           <mxGeometry x="710" y="150" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V3-tlpa_SD0hHTbS8woX-4" value="Asociar tarjeta bancaria" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="282KxaGEVmYwGQcS04Fb-1">
+        <mxCell id="V3-tlpa_SD0hHTbS8woX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="282KxaGEVmYwGQcS04Fb-1" source="V3-tlpa_SD0hHTbS8woX-4" target="V3-tlpa_SD0hHTbS8woX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3-tlpa_SD0hHTbS8woX-4" value="jugar sala tocha" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="282KxaGEVmYwGQcS04Fb-1">
           <mxGeometry x="220" y="220" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V3-tlpa_SD0hHTbS8woX-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="282KxaGEVmYwGQcS04Fb-1" source="282KxaGEVmYwGQcS04Fb-3" target="V3-tlpa_SD0hHTbS8woX-4">
@@ -24,6 +27,12 @@
         </mxCell>
         <mxCell id="V3-tlpa_SD0hHTbS8woX-7" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="282KxaGEVmYwGQcS04Fb-1">
           <mxGeometry x="74" y="60" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V3-tlpa_SD0hHTbS8woX-8" value="asociar tarjeta bancaria" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="282KxaGEVmYwGQcS04Fb-1">
+          <mxGeometry x="400" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V3-tlpa_SD0hHTbS8woX-11" value="include" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="282KxaGEVmYwGQcS04Fb-1">
+          <mxGeometry x="330" y="210" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="282KxaGEVmYwGQcS04Fb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="282KxaGEVmYwGQcS04Fb-2" target="282KxaGEVmYwGQcS04Fb-3" edge="1">
           <mxGeometry relative="1" as="geometry">
