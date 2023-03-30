@@ -1,6 +1,6 @@
 <div align="justify">
 
-# Anteproyecto - Descuentra
+# Anteproyecto - TableStars
 
 <div align='center'>
 
@@ -8,17 +8,17 @@
 
 </div>
 
-## Indice
+## Index
 
-- [IDENTIFICACIÓN](#identificación) 
+- [IDENTIFICATION](#identification) 
 
-- [DESCRIPCIÓN DEL PROYECTO](#presentación-y-descripción-del-proyecto)
+- [PROJECT DESCRIPTION](#presentation-and-description-of-the-project)
 
-- [ARQUITECTURA Y LENGUAJES A UTILIZAR](#arquitectura-y-tecnologías-a-utilizar)
+- [ARQUITECTURE AND PROGRAMMING LANGUAGES](#arquitecture-and-programming-languages)
 
-## Identificación.
+## Identification.
 
-DESCUENTRA
+TABLESTARS
 
 Proyecto para entornos de desarrollo en 1ºDAW.
 
@@ -26,23 +26,22 @@ Integrantes del grupo:
 - Samuel González
 - Jaime León 
 
-## Presentación y descripción del proyecto.
+## Presentation and description of the project.
 
-El objetivo de este proyecto será empezar el desarrollo de un programa en forma de aplicación. Descuentra servirá de rastreador de descuentos y promociones para productos comprados en tiendas online externas.
+The goal of this project will be establishing the bases of a program, in this case in the form of an application. TableStars will be a platform to play classic tabletop games online and with a new layer of challenge.
 
-Esta aplicación, la cual necesitará de un registro y una asociación de tarjeta, almacenará en una base de datos cualquier tipo de descuento válido en una amplia selección de tiendas online y los aplicará automáticamente.
+We aim to create a tabletop gaming community that revolves around competition and betting, giving our players a selection of classic tabletop games and a wide range of tables both free and paid with different types and ammounts of bets.
 
-Descuentra se rentabilizará recibiendo un pequeño porcentaje del dinero descontado con cada compra a cambio del servicio, suficiente para que el usuario considere el uso de la aplicación rentable y use Descuentra con cada compra online.
+TableStars will profit everytime a player buys tokens; the in-game currency that will be used for both betting and buying any kind of trinket or customization for our tables 
 
-## Arquitectura y tecnologías a utilizar.
+## Arquitecture and programming languages
 
 ### Back-end
-
-
-Se utilizará Python para la programación de la aplicación, así como SQLite para la creación y administración de la base de datos de la misma.
-
-La parte de la aplicación de cara al usuario se realizará utilizando HTML Y CSS.
 
 <div align='center'>
 <img src='img/proyecto_ets.drawio.png'>
 </div>
+
+We will be using Python for the back-end coding of the app and  SQLite for creating and administrating the database of it.
+
+Te part of the app that will be shown to the user will be made with HTML and CSS
