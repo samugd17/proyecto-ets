@@ -4,7 +4,7 @@
 
 <div align='center'>
 
-![<>](img/true_descuentra.png)
+![<>](img/tablestars.png)
 
 </div>
 
