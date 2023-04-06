@@ -10,11 +10,11 @@
 
 ## Index
 
-- [IDENTIFICATION](#identification) 
+- [Identification](#identification) 
 
-- [PROJECT DESCRIPTION](#presentation-and-description-of-the-project)
+- [Project description](#presentation-and-description-of-the-project)
 
-- [ARQUITECTURE AND PROGRAMMING LANGUAGES](#arquitecture-and-programming-languages)
+- [Arquitecture and programming languages](#arquitecture-and-programming-languages)
 
 ## Identification.
 
