@@ -1,9 +1,8 @@
-# Documentación
+# Documentation
 
-En esta sección, se podrá encontrar todo lo relacionado a la documentación del proyecto.
+In this section, you will find everything related to the project documentation.
 
-## Índice
+## Index
 
 - [Anteproyecto](anteproyecto.md)
-- [Diagrama de casos de uso](diagrama-casos-uso)
-- [Diagrama de entidad-relación](diagrama-entidad-relación)
+- [Use Case diagram](use-case-diagram.md)

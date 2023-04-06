@@ -31,7 +31,6 @@ Group members:
 The goal of this project will be establishing the bases of a program, in this case in the form of an application. TableStars will be a platform to play classic tabletop games online and with a new layer of challenge.
 
 We aim to create a tabletop gaming community that revolves around competition and betting, giving our players a selection of classic tabletop games and a wide range of tables both free and paid with different types and ammounts of bets.
->>>>>>> feature_9
 
 TableStars will profit everytime a player buys tokens; the in-game currency that will be used for both betting and buying any kind of trinket or customization for our tables 
 
