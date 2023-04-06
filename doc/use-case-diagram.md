@@ -23,20 +23,21 @@ This document outlines the use cases identified, as well as the actors involved 
   - Sign up
   - Play guest party mode
   - Visit store
-  - Access configuration
+  - Basic settings
   
 - User:
   - Login
-  - Access real price party mode
-  - Access virtual price party mode
+  - Play real price party mode
+  - Play virtual price party mode
     - Check credit card
-    - Credit card approved
-    - Credit card rejected
-    - Play
+    - Credit card exist
+    - Credit card not exist
+    - Add credit card
   - Play multiplayer mode
   - Send and receive friend requests
-  - Shopping at the store
+  - Shopping in the store
   - Personalice skins
+  - Advance settings
   - Access bookmarks
 
 - Database:
@@ -46,7 +47,7 @@ This document outlines the use cases identified, as well as the actors involved 
 
  <div align="center">
   </br>
-  <img src="doc/img/TableStars_CU.png">
+  <img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/TableStars_CU.png">
   </br>
  </div>
 
@@ -71,13 +72,13 @@ This document specifies the different actors involved in the proposed solution.
   | Autor  | _Samuel Eloy González Díaz_ |
   | Date | _06/04/2023_ |
 
-#### Cliente registrado
+#### User
 
   |  Actor | User|
   |---|---|
   | Description  | User that has been already registered in TableStars |
   | Relations | The registered user can perform the guest's actions in addition to his own actions. |
-  | References | __UC.1, UC.2, UC.3, UC.4, UC.5, UC.6, UC.7, UC.8, UC.9, UC.10, UC.11, UC.12__ |   
+  | References | __UC.1, UC.2, UC.3, UC.4, UC.5, UC.6, UC.7, UC.8, UC.9, UC.10, UC.11, UC.12, UC.13, UC.14, UC.15, UC.16, UC.17__ |   
   |  Notes |   |
   | Autor  | _Samuel Eloy González Díaz_ |
   | Date | _06/04/2023_ |
@@ -88,7 +89,7 @@ This document specifies the different actors involved in the proposed solution.
   |---|---|
   | Description  | Database containing all the data necessary for the proper functioning of the application.|
   | Relations | |
-  | References | __UC.17__ |   
+  | References | __UC.18__ |   
   | Notes |  |
   | Autor  | _Samuel Eloy González Díaz_ |
   | Date | _06/04/2023_ |
@@ -100,7 +101,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.1 | Sign up |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md).  |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md).  |
 | Actor | Guest user |
 | Description | The guest user can log into the system to access all available user functions.  |
 | Basic flow| |
@@ -115,7 +116,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.2 | Play guest party mode |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | Guest user |
 | Description | Free game mode where you can play against random players from all over the world |
 | Basic flow| |
@@ -130,7 +131,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.3 | Visit Store |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | Guest user |
 | Description | Allows you to consult the store and view the different offers |
 | Basic flow| |
@@ -145,7 +146,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.4 | Basic settings |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | Guest user |
 | Description | Allows you to configure different game settings, such as language, audio, etc.  |
 | Basic flow| |
@@ -160,7 +161,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.5 | Log in |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows you to identificate in the system|
 | Basic flow| |
@@ -175,7 +176,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.6 | Play real price party mode|
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows to play using real money as a wager|
 | Basic flow | 1. Log in|
@@ -191,7 +192,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.7 | Play virtual price party mode |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows to play using virtual coins as a wager |
 | Basic flow | 1. Log in|
@@ -207,7 +208,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.8 | Play multiplayer mode |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows to have a match between your friends |
 | Basic flow | 1. Log in|
@@ -223,7 +224,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.9 | Send and receive friend requests |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows you to add friends within the app |
 | Basic flow | 1. Log in|
@@ -239,7 +240,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.10 | Shopping in the store |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows you to buy different skins for the user avatar, board etc. You can also buy virtual game coins |
 | Basic flow | 1. Log in|
@@ -255,7 +256,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.11 | Personalice skins |
 |---|---|
-| Sources | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows you to customize the appearance of the board, dice, avatars, etc. |
 | Basic flow | 1. Log in|
@@ -271,7 +272,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.12 | Advanced settings |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows you to configure different advanced settings, such as your username, password, modify your credit card, etc. |
 | Basic flow | 1. Log in|
@@ -287,7 +288,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.13 | Access bookmarks |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows you to consult the leaderboards and high score rankings, globally and among your friends |
 | Basic flow | 1. Log in|
@@ -303,7 +304,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.14 | Check credit card |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Verify the status of the credit card |
 | Basic flow | 1. Log in |
@@ -320,7 +321,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.15 | Credit card not exist |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description |Verify that the credit card doesn't exists or is not valid.|
 | Basic flow | 1. Log in |
@@ -338,7 +339,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.16 | Credit card exist |
 |---|---|
-| Sources  | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Verify that the credit card exists and is valid.|
 | Basic flow | 1. Log in |
@@ -356,7 +357,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.17 | Add credit card |
 |---|---|
-| Sources | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | User |
 | Description | Allows you to add your credit card to be able to play all modes |
 | Basic flow | 1. Log in |
@@ -375,7 +376,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.18 | Send data and receive data |
 |---|---|
-| Sources | The use case is supported by [this document](doc/use-case-diagram.md). |
+| Sources | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
 | Actor | Database |
 | Description | Send and receive necessary data for the different use cases of the system |
 | Basic flow| |
