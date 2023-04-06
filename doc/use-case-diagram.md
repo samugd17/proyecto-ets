@@ -10,12 +10,21 @@
 ## Index
   - [Introduction](#introduction).
   - [Description](#description).
-  - [Actors specification ](#actors-identification).
-  - [Use Cases specification](#use_cases_specification).
+  - [Actors identification ](#actors-identification).
+  - [Use Cases identification](#use-cases-identification).
+  - [Use Cases Diagram](#use-cases-diagram).
+  - [Actors specification](#actors-specification).
+  - [Use Cases specification](#use-cases-specification).
 
 ### Introduction
 This document specifies the __use case diagram__ of the _**TableStars**_ system.
 This document outlines the use cases identified, as well as the actors involved in them.
+
+### Description
+
+TableStars will be a platform to play classic tabletop games online and with a new layer of challenge.
+
+We aim to create a tabletop gaming community that revolves around competition and betting, giving our players a selection of classic tabletop games and a wide range of tables both free and paid with different types and ammounts of bets.
 
 ## Actors identification.
 - Guest
@@ -48,19 +57,13 @@ This document outlines the use cases identified, as well as the actors involved 
 - Database:
   - Send data
  
-## UC DIAGRAM
+## Use Cases Diagram
 
  <div align="center">
   </br>
   <img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/TableStars_CU.png">
   </br>
  </div>
-
-### Description
-
-TableStars will be a platform to play classic tabletop games online and with a new layer of challenge.
-
-We aim to create a tabletop gaming community that revolves around competition and betting, giving our players a selection of classic tabletop games and a wide range of tables both free and paid with different types and ammounts of bets.
 
 ### Actors specification
 
@@ -101,12 +104,13 @@ This document specifies the different actors involved in the proposed solution.
 
 
 ### Use Cases specification
+This document specifies the different Use Cases involved in the proposed solution.
 
 #### Sign up
 
 | UC.1 | Sign up |
 |---|---|
-| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md).  |
+| Sources  | The use case is supported by [this document](#use-cases-diagram).  |
 | Actor | Guest user |
 | Description | The guest user can log into the system to access all available user functions.  |
 | Basic flow| |
@@ -121,7 +125,7 @@ This document specifies the different actors involved in the proposed solution.
 
 | UC.2 | Play guest party mode |
 |---|---|
-| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
+| Sources  | The use case is supported by [this document](#use-cases-diagram). |
 | Actor | Guest user |
 | Description | Free game mode where you can play against random players from all over the world |
 | Basic flow| |
