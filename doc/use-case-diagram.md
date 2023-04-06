@@ -1,8 +1,13 @@
 <div aling="justify">
 
 # UC DIAGRAM: TABLESTARS
+ <div align="center">
+  </br>
+  <img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/tablestars.png">
+  </br>
+ </div>
 
-## Indice
+## Index
   - [Introduction](#introduction).
   - [Description](#description).
   - [Actors specification ](#actors-identification).
