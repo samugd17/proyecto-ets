@@ -1,6 +1,6 @@
 <div align="justify">
 
-# Anteproyecto - TableStars
+# Preliminary project: TableStars
 
 <div align='center'>
 
@@ -20,9 +20,9 @@
 
 TABLESTARS
 
-Proyecto para entornos de desarrollo en 1ºDAW.
+Project for the Development Environments subject of 1ºDAW, IES Puerto de la Cruz.
 
-Integrantes del grupo:
+Group members:
 - Samuel González
 - Jaime León 
 
@@ -36,12 +36,10 @@ TableStars will profit everytime a player buys tokens; the in-game currency that
 
 ## Arquitecture and programming languages
 
-### Back-end
-
 <div align='center'>
 <img src='img/proyecto_ets.drawio.png'>
 </div>
 
-We will be using Python for the back-end coding of the app and  SQLite for creating and administrating the database of it.
+We will be using Python for the back-end coding of the app and SQLite for creating and administrating the database of it.
 
-Te part of the app that will be shown to the user will be made with HTML and CSS
+The part of the app that will be shown to the user will be made with HTML5 and CSS.
