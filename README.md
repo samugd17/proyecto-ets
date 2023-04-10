@@ -2,14 +2,16 @@
 
 <div align='center'>
 
-<img src="https://github.com/samugd17/proyecto-ets/blob/main/doc/img/true_descuentra.png" width="600px">
+<img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/tablestars.png">
 
 </div>
 
-## Descripción
-Descuentra es una comunidad, accesible mediante página web y App, que recopila las ofertas, cupones, chollos, promociones y productos gratis disponibles en cualquier tienda online o física.
+## Description
+TableStars will be a platform to play classic tabletop games online and with a new layer of challenge.
 
-## Índice
+We aim to create a tabletop gaming community that revolves around competition and betting, giving our players a selection of classic tabletop games and a wide range of tables both free and paid with different types and ammounts of bets.
+
+## Index
 
 - [Doc](doc/README.md)
 - [Despliegue](despliegue/README.md)
