@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T23:18:18.192Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0" version="21.1.4" etag="KEbBG1I1AwIckCyKn3VV" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T23:43:06.267Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0" version="21.1.4" etag="l2vtjko2eHfXY9yna4EC" type="github">
   <diagram name="Página-1" id="CXJXlOiOrODaM3HMHi4I">
     <mxGraphModel dx="1494" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -366,10 +366,10 @@
         <mxCell id="282KxaGEVmYwGQcS04Fb-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="665" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="282KxaGEVmYwGQcS04Fb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="282KxaGEVmYwGQcS04Fb-13" target="282KxaGEVmYwGQcS04Fb-14" edge="1">
+        <mxCell id="282KxaGEVmYwGQcS04Fb-15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;curved=1;" parent="1" source="282KxaGEVmYwGQcS04Fb-13" target="282KxaGEVmYwGQcS04Fb-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CwKW6EMDKbV8z54YExkc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="282KxaGEVmYwGQcS04Fb-13" target="CwKW6EMDKbV8z54YExkc-33">
+        <mxCell id="CwKW6EMDKbV8z54YExkc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="282KxaGEVmYwGQcS04Fb-13" target="CwKW6EMDKbV8z54YExkc-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="282KxaGEVmYwGQcS04Fb-13" value="Database" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
