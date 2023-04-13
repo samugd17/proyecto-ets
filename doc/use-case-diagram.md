@@ -3,7 +3,7 @@
 # UC DIAGRAM: TABLESTARS
  <div align="center">
   </br>
-  <img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/tablestars.png">
+  <img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/tablestars.png"/>
   </br>
  </div>
 
@@ -22,9 +22,19 @@ This document outlines the use cases identified, as well as the actors involved 
 
 ### Description
 
-TableStars will be a platform to play classic tabletop games online and with a new layer of challenge.
+TableStars will be a platform to play classic board games online and with a new layer of challenge.
 
-We aim to create a tabletop gaming community that revolves around competition and betting, giving our players a selection of classic tabletop games and a wide range of tables both free and paid with different types and ammounts of bets.
+Our goal is to create a board game community that revolves around competition and betting, offering our players a selection of classic games and a wide range of both free and paid tables, with different types and amounts of bets, depending on the currency used.  There will be two, virtual coins and diamonds. 
+
+Our first game to be implemented will be Parcheesi, which will have two table sizes: 4 players, 6 players. And it will have up to 4 tables of different betting levels, in its paid game modes.
+
+Game modes are as follows:
+- _Virtual prize party_: In this mode you can bet your virtual coins.
+- _Real prize party_: In this mode you can bet your diamonds.
+- _Guest party_: In this mode, you can play as a guest or you can logged in with your current user and play versus random people for free.
+- _Friends party_: In this mode you can play against your friends in the game.
+
+In addition to all this, the application will have a store where you can buy different skins for the boards, dice and player tokens, and where you can exchange diamonds for virtual coins. In case of not having enough diamonds, they can also be purchased directly from the store.
 
 ## Actors identification.
 - Guest
@@ -41,28 +51,33 @@ We aim to create a tabletop gaming community that revolves around competition an
   
 - User:
   - Login
-  - Play real price party mode
+  - Shopping in the store
+    - Buy diamonds
+    - Check credit card
+    - Credit card exist
+    - Credit card not exist
+    - Add credit card
+    
   - Play virtual price party mode
+    - Select table size
+    - Select stake level
+    - Check enough necessary token
+      - Approve operation
+      - Deny operation
+  - Play real price party mode
   - Play friends party mode
     - Join game room
     - Create game room
     - Invite friends
   - Personalice skins
-  - Shopping in the store
-  - Advance settings
-  - Consult scoreboards
   - Search player
     - Send friend request
     - Consult player stats
   - Receive friend request
     - Accept friend request
     - Decline friend request
-  - Check credit card
-  - Credit card exist
-  - Credit card not exist
-  - Add credit card
-  - Send and receive friend requests
-
+  - Advance settings
+  - Consult scoreboards
 
 - Database:
   - Send data
@@ -72,7 +87,9 @@ We aim to create a tabletop gaming community that revolves around competition an
 
  <div align="center">
   </br>
-  <img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/TableStars_CU.png">
+
+  <img src="doc/img/TableStars_CU.png"/> 
+
   </br>
  </div>
 
