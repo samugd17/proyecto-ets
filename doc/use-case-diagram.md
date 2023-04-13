@@ -43,19 +43,30 @@ We aim to create a tabletop gaming community that revolves around competition an
   - Login
   - Play real price party mode
   - Play virtual price party mode
-    - Check credit card
-    - Credit card exist
-    - Credit card not exist
-    - Add credit card
-  - Play multiplayer mode
-  - Send and receive friend requests
-  - Shopping in the store
+  - Play friends party mode
+    - Join game room
+    - Create game room
+    - Invite friends
   - Personalice skins
+  - Shopping in the store
   - Advance settings
-  - Access bookmarks
+  - Consult scoreboards
+  - Search player
+    - Send friend request
+    - Consult player stats
+  - Receive friend request
+    - Accept friend request
+    - Decline friend request
+  - Check credit card
+  - Credit card exist
+  - Credit card not exist
+  - Add credit card
+  - Send and receive friend requests
+
 
 - Database:
   - Send data
+  - Receive data
  
 ## Use Cases Diagram
 
