@@ -88,7 +88,7 @@ In addition to all this, the application will have a store where you can buy dif
  <div align="center">
 
 
-  ![TableStars_CU](/assets/TableStars_CU.png)
+  ![TableStars_CU](/doc/img/TableStars_CU.png)
   </br>
  </div>
 
