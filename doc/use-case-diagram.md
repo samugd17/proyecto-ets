@@ -86,10 +86,9 @@ In addition to all this, the application will have a store where you can buy dif
 ## Use Cases Diagram
 
  <div align="center">
-  </br>
 
-  <img src="/home/usuario/Documentos/REPOSITORIOS/proyecto-ets/doc/img/TableStars_CU.png"/> 
 
+  ![TableStars_CU](/assets/TableStars_CU.png)
   </br>
  </div>
 
