@@ -30,9 +30,17 @@ Group members:
 
 The goal of this project will be establishing the bases of a program, in this case in the form of an application. TableStars will be a platform to play classic tabletop games online and with a new layer of challenge.
 
-We aim to create a tabletop gaming community that revolves around competition and betting, giving our players a selection of classic tabletop games and a wide range of tables both free and paid with different types and ammounts of bets.
+Our goal is to create a board game community that revolves around competition and betting, offering our players a selection of classic games and a wide range of both free and paid tables, with different types and amounts of bets, depending on the currency used.  There will be two, virtual coins and diamonds. 
 
-TableStars will profit everytime a player buys tokens; the in-game currency that will be used for both betting and buying any kind of trinket or customization for our tables 
+Our first game to be implemented will be Parcheesi, which will have two table sizes: 4 players, 6 players. And it will have up to 4 tables of different betting levels, in its paid game modes.
+
+Game modes are as follows:
+- _Virtual prize party_: In this mode you can bet your virtual coins.
+- _Real prize party_: In this mode you can bet your diamonds.
+- _Guest party_: In this mode, you can play as a guest or you can logged in with your current user and play versus random people for free.
+- _Friends party_: In this mode you can play against your friends in the game.
+
+In addition to all this, the application will have a store where you can buy different skins for the boards, dice and player tokens, and where you can exchange diamonds for virtual coins. In case of not having enough diamonds, they can also be purchased directly from the store. 
 
 ## Arquitecture and programming languages
 
