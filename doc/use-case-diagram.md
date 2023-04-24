@@ -137,8 +137,8 @@ This document specifies the different Use Cases involved in the proposed solutio
 | UC.1 | Sign up |
 |---|---|
 | Sources  | The use case is supported by [this document](#use-cases-diagram).  |
-| Actor | Guest user |
-| Description | The guest user can log into the system to access all available user functions.  |
+| Actor | |
+| Description | It allows to log into the system to access all available user functions.  |
 | Basic flow| |
 | Pre-conditions | |  
 | Post-conditions  | Guest user will be transform into User, so he can access all available user functions |  
@@ -702,4 +702,18 @@ This document specifies the different Use Cases involved in the proposed solutio
 | Autor  | _Samuel Eloy González Díaz & Jaime León_ |
 | Date | _06/04/2023_ |
 
+#### Logout
+
+| UC.34 | Logout|
+|---|---|
+| Sources  | The use case is supported by [this document](https://github.com/samugd17/proyecto-ets/blob/develop/doc/use-case-diagram.md). |
+| Actor | User |
+| Description | Allows to logout from user's account|
+| Basic flow | |
+| Pre-conditions | Log in |  
+| Post-conditions  | |  
+| Requirements | Have a valid account in the system|
+| Notes | |
+| Autor  | _Samuel Eloy González Díaz & Jaime León_ |
+| Date | _06/04/2023_ |
 </div>
