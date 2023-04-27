@@ -19,6 +19,7 @@ This document outlines how the entities and objects from __TableStars__ are rela
 
 ### Description
   This diagram shows a simplified vision of how __TableStars__ will work and how their entities will be related.
+  
 ### Entity-Relationship Diagram
 
  <div align="center">
