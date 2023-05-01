@@ -61,3 +61,4 @@ class Inventory:
 
     def remove_item(self, item: str) -> None:
         self.items.remove(item)
+
