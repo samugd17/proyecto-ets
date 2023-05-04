@@ -2,12 +2,6 @@
 
 # CLASSES DIAGRAM: TABLESTARS
 
- <div align="center">
-  </br>
-  <img src="https://github.com/samugd17/proyecto-ets/blob/develop/doc/img/Tablestars_Classes.png"/>
-  </br>
- </div>
-
 ## Index
   - [Introduction](#introduction).
   - [Description](#description).
