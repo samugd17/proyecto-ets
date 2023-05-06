@@ -15,11 +15,10 @@
 
 ### Introduction
 This document specifies the __entity relationship diagram__ of the _**TableStars**_ system.
-This document outlines how the entities and objects from __TableStars__ are related between them inside the system.
 
 ### Description
-  This diagram shows a simplified vision of how __TableStars__ will work and how their entities will be related.
-  
+This document outlines in a simplified manner how the entities and objects of the application will be related inside the system.
+
 ### Entity-Relationship Diagram
 
  <div align="center">
