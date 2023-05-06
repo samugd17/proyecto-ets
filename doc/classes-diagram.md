@@ -11,9 +11,9 @@
 This document specifies the __classes diagram__ of the _**TableStars**_ system.
 
 ### Description
-This document describes the structure of _**TableStars**_ system by showing the system's classes, their attributes, methods, and the relationships between objects.
+This diagram is the closes depiction of how the code of the _**TableStars**_ application will be structured, as it describes the structure of the system by showing the its classes as well as their attributes, methods and relationships between each other.
   
-### Classes Diagram
+### Classes Diagrams
 
  <div align="center">
   </br>
