@@ -33,9 +33,10 @@ The goal of this project will be establishing the bases of a program, in this ca
 Our goal is to create a board game community that revolves around competition and betting, offering our players a selection of classic games and a wide range of both free and paid tables with different types and amounts of bets, as well as an in-game store where users will be able to exchange currencies and buy special skins and items.
 
 There will be two main currencies in the game; virtual coins and diamonds:
-    - The Virtual coin will be the less valuable one, as it will be easier to get just by playing and login in. This currency will be used to buy 'low tier' items or skins.   
 
-    - Diamonds will be the premium currency of the game. They will be much harder to get by just playing, as players are intended to purchase them with real money and cash them back. Users will be able to exchange diamonds for virtual coins but not the other way around. Diamonds will be also used to buy premium or exclusive items.
+- The Virtual coin will be the less valuable one, as it will be easier to get just by playing and login in. This currency will be used to buy 'low tier' items or skins.   
+
+- Diamonds will be the premium currency of the game. They will be much harder to get by just playing, as players are intended to purchase them with real money and cash them back. Users will be able to exchange diamonds for virtual coins but not the other way around. Diamonds will be also used to buy premium or exclusive items.
 
 Our first game to be implemented will be Parcheesi, which will have two table sizes: 4 players, 6 players. And it will have up to 4 tables of different betting levels, in its paid game modes.
 
