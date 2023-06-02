@@ -6,12 +6,6 @@ from random import randint
 DB_PATH = 'tablestars.db'
 
 def create_db(db_path: str = DB_PATH) -> None:
-    '''Crea la base de datos y las siguientes tablas:
-    - user (id, username, password, bio)
-    - tweet (id, content, user_id, retweet_from)
-        └ user_id es clave ajena de user(id)
-        └ retweet_from es clave ajena de tweet(id)'''
-    
     con = sqlite3.connect(db_path)
     con.row_factory = sqlite3.Row
     cur = con.cursor()
@@ -70,9 +64,8 @@ class Token:
     def __str__(self):
         return f"{self.color} token is in position {self.position} "
 
-
 class Dice:
-    def __init__(self, sides=6):
+    def __init__(self, sides: int = 6):
         self.sides = sides
 
     def throw(self):
