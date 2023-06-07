@@ -7,11 +7,10 @@ current_users = {}
 def create_guest_name():
     while True:
         id = random.randint(10000000, 99999999)
-        if id  in current_users:
+        if id not in current_users:
             guest_name = f"Guest{id}"
-            current_users[guest_name]
+            current_users[guest_name] = 'placeholder'
             return guest_name
-
 
 class User:
     def __init__(self):
@@ -22,10 +21,8 @@ class User:
 
     def create_account(self, username, password):
         if username not in current_users:
-            if self.username:
-                current_users.pop(self.username)
-            Member(username, password)
             current_users[username] = password
+            return Member(username, password)
         else:
             print(f"{username} ya está en uso")
 
@@ -47,7 +44,7 @@ class Member(User):
 
     def logout(self) -> None:
         if self.login_status:
-            not self.login_status
+            self.login_status = False
 
 
 class Inventory:
@@ -64,6 +61,3 @@ class Inventory:
 
     def remove_item(self, item: str) -> None:
         self.items.remove(item)
-
-def test(n1, n2):
-    return n1 + n2
