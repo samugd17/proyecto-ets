@@ -49,3 +49,5 @@ class TestUser:
     def test_remove_item(self):
         self.inv1.remove_item('dado')
         assert self.inv1.items == ['cubiliete']
+
+#prueba merge
