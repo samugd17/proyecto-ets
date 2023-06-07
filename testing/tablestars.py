@@ -7,7 +7,7 @@ current_users = {}
 def create_guest_name():
     while True:
         id = random.randint(10000000, 99999999)
-        if id  in current_users:
+        if id in current_users:
             guest_name = f"Guest{id}"
             current_users[guest_name]
             return guest_name
@@ -64,6 +64,3 @@ class Inventory:
 
     def remove_item(self, item: str) -> None:
         self.items.remove(item)
-
-def test(n1, n2):
-    return n1 + n2
