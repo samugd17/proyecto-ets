@@ -2,7 +2,6 @@ import pytest
 from tablestars import *
 import re
 
-
 user1 = User()
 guest1 = Guest()
 member1 = user1.create_account('peste','actuarconcriterio')
