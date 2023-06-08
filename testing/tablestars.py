@@ -60,6 +60,15 @@ class Member(User):
             self.friends.append(other.username)
         else:
             return 'Declined'
+        
+    def remove_friend(self, other: Member):
+        if other.username in self.friends:
+            self.friends.remove(other.username)
+            other.friends.remove(self.username)
+            return 'Successfully removed'
+        else:
+            return f"You're not friends with {other.username}"
+
 
 
 class Inventory:

@@ -50,6 +50,14 @@ class TestUser:
         assert self.member1.username not in self.member3.friends
         assert self.member3.username not in self.member1.friends
 
+    def test_remove_friend(self):
+        self.member2.remove_friend(self.member1)
+        assert self.member1.username not in self.member2.friends
+        assert self.member2.username not in self.member1.friends
+
+    def test_remove_friend_with_non_friend(self):
+        assert self.member2.remove_friend(self.member1) == f"You're not friends with {self.member1.username}"
+
     def test_build_inventory(self):
         assert self.inv1.username == 'peste'
         assert self.inv1.items == []
@@ -64,4 +72,6 @@ class TestUser:
 
     def test_get_item(self):
         self.inv1.get_item('cubiliete') == 'cubiliete'
+
+    
 
