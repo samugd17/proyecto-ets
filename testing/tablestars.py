@@ -69,8 +69,6 @@ class Member(User):
         else:
             return f"You're not friends with {other.username}"
 
-
-
 class Inventory:
     def __init__(self, username: str):
         self.username = username
