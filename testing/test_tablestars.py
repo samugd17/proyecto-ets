@@ -6,6 +6,8 @@ class TestUser:
     user1 = User()
     guest1 = Guest()
     member1 = user1.create_account('peste','actuarconcriterio')
+    member2 = user1.create_account('welles','actuar')
+    member3 = user1.create_account('gdamn3','concriterio')
     inv1 = Inventory('peste')
 
     def test_build_user(self):
@@ -38,6 +40,16 @@ class TestUser:
         self.member1.logout()
         assert self.member1.login_status == False
 
+    def test_accept_friend_request(self):
+        self.member2.send_friend_request(self.member1)
+        assert self.member1.username in self.member2.friends
+        assert self.member2.username in self.member1.friends
+
+    def test_decline_friend_request(self):
+        self.member3.send_friend_request(self.member1)
+        assert self.member1.username not in self.member3.friends
+        assert self.member3.username not in self.member1.friends
+
     def test_build_inventory(self):
         assert self.inv1.username == 'peste'
         assert self.inv1.items == []
@@ -50,4 +62,6 @@ class TestUser:
         self.inv1.remove_item('dado')
         assert self.inv1.items == ['cubiliete']
 
-#prueba merge
+    def test_get_item(self):
+        self.inv1.get_item('cubiliete') == 'cubiliete'
+

@@ -1,4 +1,6 @@
+from __future__ import annotations
 import random
+import re
 
 current_users = {}
 
@@ -15,9 +17,6 @@ def create_guest_name():
 class User:
     def __init__(self):
         self.id = random.randint(10000000, 99999999)
-
-    def add_guest(self):
-        Guest()
 
     def create_account(self, username, password):
         if username not in current_users:
@@ -37,6 +36,7 @@ class Member(User):
         self.username = username
         self.password = password
         self.login_status = False
+        self.friends = []
 
     def login(self, username: str, password: str) -> None:
         if username in current_users and current_users[username] == password:
@@ -46,6 +46,21 @@ class Member(User):
         if self.login_status:
             self.login_status = False
 
+    def manage_friend_request(self, other: Member):
+        regex = r'\w+[1-9]{1}'
+        if re.fullmatch(regex, other.username) is None:
+            self.friends.append(other.username)
+            return 'Successfully accepted'
+        else:
+            return 'Successfully declined'
+
+
+    def send_friend_request(self, other: Member):
+        if other.manage_friend_request(self) == 'Successfully accepted':
+            self.friends.append(other.username)
+        else:
+            return 'Declined'
+
 
 class Inventory:
     def __init__(self, username: str):
@@ -53,7 +68,7 @@ class Inventory:
         self.items = []
 
     def get_item(self, item: str):
-        pass
+        return item
 
     def add_item(self, *items: str) -> None:
         for item in items:
@@ -62,4 +77,3 @@ class Inventory:
     def remove_item(self, item: str) -> None:
         self.items.remove(item)
 
-#prueba merge
