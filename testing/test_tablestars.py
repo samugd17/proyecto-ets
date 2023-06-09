@@ -73,4 +73,9 @@ def test_get_item():
     inv1.get_item('cubiliete') == 'cubiliete'
 
     
-
+@pytest.mark.parametrize(
+    ('value1', 'value2', 'expected'),
+    [(3, 2, 5), (7, 3, 10), (suma(7, 10), 3, 20)]
+)
+def test_suma(value1, value2, expected):
+    assert suma(value1, value2) == expected

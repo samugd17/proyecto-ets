@@ -84,3 +84,6 @@ class Inventory:
     def remove_item(self, item: str) -> None:
         self.items.remove(item)
 
+def suma(n1, n2):
+    if isinstance(n1, int) and isinstance(n2, int):
+        return n1 + n2
